@@ -1,0 +1,349 @@
+.dingbu{
+    width: 100%;
+    height: 40px;
+    background: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+}
+.dingbu .dingNei{
+    width:1170px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.dingbu .dingNei .dingZuo{
+    width:300px;
+    height:100%;
+    display: flex;
+    align-items:center;
+}
+.dingbu .dingNei .dingZuo .reXian{
+    line-height: 40px;
+    font-size: 13px;
+    color: #959595;
+    margin-left: 5px;
+}
+.dingbu .dingNei .dingZuo .haoMa{
+    line-height: 40px;
+    font-size: 13px;
+    color: #027938;
+    font-weight: 700;
+    font-style: normal;
+}
+.dingbu .dingNei .dingYou{
+    width:520px;
+    height:100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.dingbu .dingNei .dingYou .kuang{
+    width:auto;
+    height:100%;
+    margin-left: 30px;
+    display: flex;
+    align-items:center;
+
+}
+.dingbu .dingNei .dingYou .kuang .wenZi{
+    font-size: 14px;
+    color: #555555;
+    font-weight: 700;
+    margin-left: 2px;
+}
+.daohang{
+    width:100%;
+    height:60px;
+    display: flex;
+    justify-content: center;
+}
+.daohang .daoNei{
+    width:1170px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.daohang .logo{
+    width:260px;
+    height:50px;
+    background-image: url("../img/logo.png");
+    background-size: cover;
+}
+.daohang .daoYou{
+    width: 778px;
+    height:100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.daohang .liebiao{
+    width: auto;
+    height: 60px;
+}
+.daohang .daoYou .liebiao .xuanZe{
+    width:auto;
+    height:100%;
+    margin: 0 15px;
+    font-size: 14px;
+    color: #5C5C5C;
+    line-height: 60px;
+    box-sizing: border-box;
+}
+.daohang .daoYou .liebiao .xuanZhong{
+    color: #027938;
+}
+.daohang .daoYou .liebiao .xiaLa{
+    width:150px;
+    height: 100px;
+    background-color: #ffffff;
+    border-top: 1px solid #cccccc;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    display: none;
+    /*transition: transform 1s;*/
+}
+.daohang .daoYou .liebiao .xiaLa1{
+    height: 200px;
+    position: absolute;
+    top: 60px;
+    left: 170px;
+}
+.daohang .daoYou .liebiao .xiaLa2{
+    height: 150px;
+    position: absolute;
+    top: 60px;
+    left: 290px;
+}
+.daohang .daoYou .liebiao .xiaLa3{
+
+    position: absolute;
+    top: 60px;
+    left: 520px;
+}
+.daohang .daoYou .liebiao:hover .xuanZe{
+    color: #027938;
+}
+.daohang .daoYou .liebiao:hover .xiaLa{
+    display: block;
+}
+.daohang .daoYou .liebiao .xiaWen{
+    display: block;
+    width:100%;
+    height:40px;
+    color: #5C5C5C;
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 40px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.daohang .daoYou .liebiao .xiaWen:hover{
+    background-color: #cccccc;
+    color: #027938;
+}
+.lunbo{
+    width:100%;
+    height:370px;
+    position: relative;
+}
+.lunbo .lunBoTu1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.lunbo .lunbozuo{
+    width:41px;
+    height:69px;
+    background-image: url("../img/lunbojiantou.png");
+    background-position: -83px;
+    position: absolute;
+    top: 127px;
+    left: 0px;
+}
+.lunbo .lunboyou{
+    width:41px;
+    height:69px;
+    background-image: url("../img/lunbojiantou.png");
+    background-position: -125px;
+    position: absolute;
+    top: 127px;
+    right: 0px;
+}
+.jidi{
+    width:100%;
+    height:585px;
+    /*background-color: #0FE7FF;*/
+    padding: 70px 0 0;
+    border-bottom: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+.jidi .jidibiaoti{
+    width:100%;
+    height:31px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    color: #027938;
+
+}
+.jidi .jidiguoduXian{
+    width:100%;
+    height:11px;
+    background: url("../img/guoduxian.png")center no-repeat;
+    text-align: center;
+    overflow: hidden;
+}
+.jidi .jidiNei{
+    width:1170px;
+    height:393px;
+    /*background-color: yellow;*/
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+.jidi .jidiNei .jidilunbo{
+    width:100%;
+    height:313px;
+    padding: 0 15px;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    box-sizing: border-box;
+}
+.jidi .jidiNei .jidilunbo .jidilunbotu{
+    width:540px;
+    height:100%;
+    padding-right: 30px;
+}
+.jidi .jidiNei .jidilunbo .jidituyou{
+    float: right;
+    width: 570px;
+    height: 212px;
+    /*background-color: red;*/
+}
+.jidi .jidiNei .jidilunbo .jidituyou .jidixiaobiao{
+    width:100%;
+    height: 28px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #37474f;;
+}
+.jidi .jidiNei .jidilunbo .jidituyou .jidixiaobiao .jidixuhao{
+    color: #027938;
+}
+.jidi .jidiNei .jidilunbo .jidituyou .jididuanluo{
+    width:100%;
+    height:auto;
+    color: #999999;
+    font-size: 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.jidi .jidiNei .jidilunbo .jidituyou .jidigeng{
+    display: block;
+    width:88px;
+    height:36px;
+    background-color: #027938;
+    color: #ffffff;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 14px;
+}
+.jidi .jidiNei .jidilunbo .jidizuo{
+    width:41px;
+    height:69px;
+    background-image: url("../img/lunbojiantou.png");
+    background-position: -83px;
+    position: absolute;
+    top: 127px;
+    left: -41px;
+}
+.jidi .jidiNei .jidilunbo .jidiyou{
+    width:41px;
+    height:69px;
+    background-image: url("../img/lunbojiantou.png");
+    background-position: -125px;
+    position: absolute;
+    top: 127px;
+    right: -41px;
+}
+.dibushang{
+    width:100%;
+    height: 209px;
+    padding: 40px 0;
+    border-bottom: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+.dibushang .dibusnei{
+    width: 1170px;
+    height:128px;
+    margin: 0 auto;
+    display: flex;
+}
+.dibushang .dibusnei .dibuliebiao{
+    width:195px;
+    height:auto;
+    padding: 0 15px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+.dibushang .dibusnei .dibuliebiao .dblbd{
+    width:72px;
+    height:20px;
+    font-size: 18px;
+    color: #37474f;
+    margin-bottom: 11px;
+    box-sizing: border-box;
+}
+.dibushang .dibusnei .dibuliebiao .dbln{
+    width:auto;
+    height:14px;
+    font-size: 14px;
+    color: #76838f;
+    margin-bottom: 3px;
+    box-sizing: border-box;
+}
+.dibushang .dibusnei .dibuliebiao1{
+    width:195px;
+    height:auto;
+    padding: 0 15px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+.dibushang .dibusnei .dibuliebiao1 .dblbd1{
+    width:auto;
+    height: auto;
+    font-size: 24px;
+    color: #555555;
+    margin-bottom: 11px;
+    box-sizing: border-box;
+}
+.dibushang .dibusnei .dibuliebiao1 .dbln1{
+    width:auto;
+    height:14px;
+    font-size: 13px;
+    color: #aaaaaa;
+    margin-bottom: 3px;
+    box-sizing: border-box;
+}
+.dibu{
+    width:100%;
+    height: 116px;
+    padding: 20px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+}
+.dibu .banquan{
+    display: block;
+    color: #aaaaaa;
+    font-size: 14px;
+}
